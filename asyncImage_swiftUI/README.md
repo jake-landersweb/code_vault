@@ -1,5 +1,3 @@
-# SwiftUI 3: AsyncImage with Dyanmic Codable Session
-
 iOS15 gave us a new view called AsyncImage. This view has been around for a long time in flutter, called NetworkImage. This allows you to fetch an image from the internet in real time while also showing preview and error views if anything were to go wrong. I decided to use a public image api for this.
 
 <<Images>>
