@@ -1,4 +1,3 @@
 title: SwiftUI 3 - AsyncImage with Dyanmic Codable Session
 description: SwiftUI3 introduced a new View allowing you to fetch and load images over the internet, here is an example on how to do that.
-image: https://raw.githubusercontent.com/jake-landersweb/code_vault/4e129e9b2b9a62f526ccdc6ad52801f2996a9b82/asyncImage_swiftUI/assets/code.png
 tags: swiftui,mobile
