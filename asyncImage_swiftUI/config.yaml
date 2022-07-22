@@ -1,4 +1,4 @@
 title: SwiftUI 3 - AsyncImage with Dyanmic Codable Session
-description: iOS15 gave us a new view called AsyncImage. This view has been around for a long time in flutter, called NetworkImage. This allows you to fetch an image from the internet in real time while also showing preview and error views if anything were to go wrong.
+description: SwiftUI3 introduced a new View allowing you to fetch and load images over the internet, here is an example on how to do that.
 image: https://raw.githubusercontent.com/jake-landersweb/code_vault/4e129e9b2b9a62f526ccdc6ad52801f2996a9b82/asyncImage_swiftUI/assets/code.png
-tags: swift,swiftui,mobile,app,application,xcode,ios,iphone,swiftui3,image,async,imageview
+tags: swiftui,mobile
