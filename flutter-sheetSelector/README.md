@@ -13,7 +13,7 @@ modal_bottom_sheet: ^2.0.0
 
 First, we need to define a sheet view. This will leverage the modal bottom sheet package for some presentation functionality. This code is pretty much copy and paste, feel free to use it however you would like (without charging for usage).
 
-```dart
+```dart {3-4, 8}
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
