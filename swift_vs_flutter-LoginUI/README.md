@@ -1,8 +1,6 @@
 ## Final Product
 
-<img src="https://raw.githubusercontent.com/jake-landersweb/code_vault/main/swift_vs_flutter-loginUI/assets/1.jpg" height="300px">
-
-![final product](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/swift_vs_flutter-loginUI/assets/1.jpg)
+![final product](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/swift_vs_flutter-LoginUI/assets/1.jpg)
 
 Flutter is a great platform for building complex and elegant UI that compiles to many platforms. But, sometimes a native solution can allow for greater functionality. for example, building apps for macOS in SwiftUI just ***looks and feels*** better. 
 
