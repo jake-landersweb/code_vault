@@ -1,6 +1,6 @@
 The SwiftUI build in ProgressView is great and all, but sometimes you need something a little more immsersive. Thats where having a preview of what is going to be loaded comes in to play! This is a simple demonstration of fetching data from json, displaying a preview while it loads, and then showing the actual content when ready.
 
-<img src="https://github.com/jake-landersweb/code_vault/tree/main/swiftui-loadingPlaceholder/assets/1.png" height="300px">
+<img src="https://raw.githubusercontent.com/jake-landersweb/code_vault/main/swiftui-loadingPlaceholder/assets/1.png" height="300px">
 
 ## Client
 
