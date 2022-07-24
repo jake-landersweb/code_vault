@@ -1,0 +1,3 @@
+title: SwiftUI - API Load Placeholder
+description: When loading data from an api it is best practice to show a mock view of the content that is being fetched. Here is how to do that
+tags: swiftui,mobile

@@ -1,6 +1,10 @@
+## Final Product
+
+<img src="https://github.com/jake-landersweb/code_vault/tree/main/swiftui-asyncImage/assets/1.png" height="300px">
+
 iOS15 gave us a new view called AsyncImage. This view has been around for a long time in flutter, called NetworkImage. This allows you to fetch an image from the internet in real time while also showing preview and error views if anything were to go wrong. I decided to use a public image api for this.
 
-<<Images>>
+## Video
 
 [Video Link](https://youtu.be/G3HiWe1d4Mg)
 
