@@ -11,6 +11,8 @@ dependencies:
   sprung: ^3.0.0
 ```
 
+> This is a more fancy note that contains come `highlighting` lets see how this note handles that.
+
 ## Beginning Code
 
 To start, we need to set up our stateful widget and define a few internal variables.
