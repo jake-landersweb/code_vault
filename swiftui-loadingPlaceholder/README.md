@@ -6,7 +6,7 @@ The SwiftUI build in ProgressView is great and all, but sometimes you need somet
 
 First, we need a way to fetch the data and store it in objects for use in swiftUI code.
 
-```swift
+```swift {3-10,13-15,20}
 class Client: ObservableObject {
     @Published var loadingStatus: LoadingStatus = LoadingStatus.initial
     
