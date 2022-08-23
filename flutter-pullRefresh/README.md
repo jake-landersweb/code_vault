@@ -11,7 +11,7 @@ dependencies:
   sprung: ^3.0.0
 ```
 
-> This is a more fancy note that contains come `highlighting` lets see how this note handles that. also, lets add a [link](https://google.com) because I will also want to handle that.
+> This is a more fancy note that contains some `highlighting` lets see how this note handles that. also, lets add a [link](https://google.com) because I will also want to handle that.
 
 ## Beginning Code
 
