@@ -588,7 +588,7 @@ The rest of the class contains functions from saving and loading the layer value
 
 ### Dense Layer
 
-#### Forward Pass
+#### Layer Forward Pass
 
 The forward pass is pretty easy to comprehend. The inputs to the layer are saved in memory, then the dot product of the inputs and weights is taken, with a bias added. This value makes up the output, which is in turned passed through the forward pass of the activation function.
 
@@ -608,7 +608,7 @@ The forward pass is pretty easy to comprehend. The inputs to the layer are saved
   }
 ```
 
-#### Backward Pass
+#### Layer Backward Pass
 
 The first operation performed on the backward pass is the activation function backward pass. The result of which is bound to `activation.dinputs`. Then, a gradient descent function is performed on the values, slightly tweaking each of the weights and biases of the layers based on the activation function.
 
@@ -683,7 +683,7 @@ abstract class Activation {
 
 I will only go over one activation function, but this is probably the most important one. I use this activation function inside the hidden layer, and a sigmoid activation function for the output.
 
-#### Forward Pass
+#### ReLU Forward Pass
 
 The forward pass for the ReLU activation function is painfully simple. If the value is below 0, set it to 0. If the value is above 0, keep the value the same.
 
@@ -702,7 +702,7 @@ The forward pass for the ReLU activation function is painfully simple. If the va
 
 > [/lib/activation/relu.dart](https://github.com/jake-landersweb/dart_nn/blob/main/lib/activation/relu.dart)
 
-#### Backward Pass
+#### ReLU Backward Pass
 
 The backward pass is the exact same concept. I did this implementation much later than the forward pass, so I forgot the `maximum()` function existed, so I used the `replaceWhere()` function instead. It results in the exact same output regardless.
 
@@ -741,7 +741,7 @@ Another critical component of the network is the loss function. This is the begi
 
 For the example that I have hosted at [nn.jakelanders.com](https://nn.jakelanders.com), the network needs to give the percent confidence for each number that it thinks each digit is. So, we need the network to "categorize" the values. So, we are going to use the categorical cross-entropy loss function.
 
-#### Forward Pass
+#### Loss Forward Pass
 
 For the forward pass, we are going to clip each input between 1e-7 and 1-1e-7 to avoid taking the log of 0.
 
@@ -764,7 +764,7 @@ For the forward pass, we are going to clip each input between 1e-7 and 1-1e-7 to
 
 > [/lib/loss/cat_crossentropy.dart](https://github.com/jake-landersweb/dart_nn/blob/main/lib/loss/cat_crossentropy.dart)
 
-#### Backward Pass
+#### Loss Backward Pass
 
 For the backwards pass, we need to compare the `dvalues` and the labels (`yTrue`). First, we convert to a one hot vector (where the non-correct indexes are 0 with the correct being 1), and divide the negative values of the one hot vector by the input dvalues. Then, we divide this `dinputs` value by the samples.
 
@@ -962,7 +962,7 @@ class NeuralNetwork {
 
 > [/lib/neural_network.dart](https://github.com/jake-landersweb/dart_nn/blob/main/lib/neural_network.dart)
 
-### Forward Pass
+### Network Forward Pass
 
 The forward pass is as simple as running through the layers which in turn will pass through the activation functions for the layers.
 
@@ -983,7 +983,7 @@ The forward pass is as simple as running through the layers which in turn will p
 
 > [/lib/neural_network.dart](https://github.com/jake-landersweb/dart_nn/blob/main/lib/neural_network.dart#L200)
 
-### Backward Pass
+### Network Backward Pass
 
 The backwards pass is simple as well. The loss function is called first, then all of the layers are ran through as well.
 
