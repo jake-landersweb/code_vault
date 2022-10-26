@@ -21,7 +21,7 @@ The next step is to create your Crosscheck Sports account. I don't collect any m
 
 If you already have an account, go ahead and input your information under the "Have an account? Login" button.
 
-![Login to Crosscheck sports management app](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/login.png)
+![Login to Crosscheck sports management app {caption: Login and create account page}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/login.png)
 
 ## Homepage
 
@@ -31,11 +31,11 @@ Congrats! You have created an account on Crosscheck Sports! This is the dashboar
 
 You can view your account details by clicking the user profile icon on the tab bar. Here you can edit your name, phone number, email and mobile notifications, send some suggestions, and logout.
 
-![Your player profile](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/profile.png)
+![Your player profile {caption: Player profile}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/profile.png)
 
 ## Creating Your Team
 
-![Creating a sports team application wizard](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/createTeam.png)
+![Creating a sports team application wizard {caption: Create team wizard}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/create-team.png)
 
 ### Templates
 
@@ -63,6 +63,8 @@ When you create a team, it will auto add you to the team and select it in settin
 
 This will bring up the team homepage. This page is viewable by everyone on the team. Here, you can edit your team as well. If you click the edit button, another option is present allowing you to add a custom icon. This can either be a link or an image you upload from your camera roll.
 
+![Sports team home page {caption: Accessing the team detail page}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/team-page.png)
+
 ## Team Users
 
 There are multiple levels of users in Crosscheck sports, the base being a team user. This is a player that is on your team, but can be on none, one, or many seasons your team has. This can be thought of as a list of all the users that have ever played on your team! This can be useful when trying to find that one goalie from a couple years ago you were looking for, or just as a nice reminder of who you have played with over the years.
@@ -73,12 +75,16 @@ On the team homepage, you can select the option "All Time Roster". This will tak
 
 Make sure the email is input correctly, and that the "First Name" field is filled out. If the user already has an account, the personal information should auto fill in. Feel free to edit the player fields as you see fit for this user as well.
 
+![Adding users to your sports team mobile app {caption: Adding a new user to your team}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/add-team-user.png)
+
 
 ### Validation Status
 
 When users are first added to your team, they will be marked as "Not Validated". This means that this user has not accepted an invitation to be on your team. To invite them, select their user cell, then click the button "Send Invite". This will send an invite to the email address you input with a team code to join your team. Once they have been invited, you are free to send more invites, but they will be marked as "Invited".
 
 When your player has accepted the validation email, they will join the main roster section. Here, you can also filer on position, and sort by a custom user field.
+
+![Viewing your sports team roster {caption: Validation status change}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/team-users.png)
 
 ## Creating a Season
 
@@ -87,6 +93,8 @@ You can swipe down on the title bar to dismiss the team page sheet. The dashboar
 This will launch a very similar view as seen in create team, with the same team templates serving the same function. There is also an option to start from a previous season, but because we do not have any none will show up.
 
 > Team positions and season positions can be different from each other.
+
+![Creating a new season with wizard {caption: Create season wizard}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/create-season.png)
 
 ### Season Custom Fields
 
@@ -103,6 +111,8 @@ Next, you can define which stats you want to track. These will all be tracked as
 ## New New Dashboard
 
 When you create a season, you will see a red banner on the bottom. This is to remind you that created seasons start out in "Future" mode. This means that any user that is added to them will not be able to see or interact with them until they are published, set to "Active". This is to give you some time to configure your season.
+
+![Sports team app dashboard {caption: Full dashboard options on a new season}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/new-dashboard.png)
 
 Lots of new items have also appeared on the bottom bar, lets go through each of them, left to right.
 
@@ -121,10 +131,11 @@ Lots of new items have also appeared on the bottom bar, lets go through each of 
 
 The season roster exists under the "More" tab. By default, no users are added to your season. There are three main ways to create users:
 
+![Adding new players to your sports team season {caption: Adding team users to a season}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/add-season-users.png)
+
 ### Creating From Scratch
 
 This will show you a similar screen when we created a team user. This is where you can input all the information, and a team user and season user record for the email specified will be created.
-
 
 ### Adding From Your Team
 
@@ -142,6 +153,7 @@ The last thing we will go over is roster groups. These give you a convenient way
 
 You can view your roster groups under the button with the same name on the season roster. Roster groups can have a color and icon, along with a description to give some information on what the roster group is for.
 
+![Roster groups {caption: Creating a roster group}](https://raw.githubusercontent.com/jake-landersweb/code_vault/main/crosscheck-createTeam/assets/create-roster-group.png)
 
 ## Conclusion
 
