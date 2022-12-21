@@ -1,3 +1,4 @@
 title: "Dart Neural Network Part 1: Implementation"
 description: A neural network created entirely in the Dart programming language and without packages.
 tags: dart,neuralnetwork,ai
+gitLink: "https://github.com/jake-landersweb/neural_network"
